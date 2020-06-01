@@ -77,13 +77,13 @@ Please run this yourself to check for any updates on how to cite
 **FirstPackage**.
 
 ``` r
-print(citation('FirstPackage'), bibtex = TRUE)
+print(citation("FirstPackage"), bibtex = TRUE)
 #> 
 #> joshstolz (2020). _An Example Package for learning Biocthis_. doi:
 #> 10.18129/B9.bioc.FirstPackage (URL:
 #> https://doi.org/10.18129/B9.bioc.FirstPackage),
-#> https://github.com/joshstolz/FirstPackage - R package version 0.99.0,
-#> <URL: http://www.bioconductor.org/packages/FirstPackage>.
+#> https://github.com/joshstolz/FirstPackage - R package version
+#> 0.0.0.9000, <URL: http://www.bioconductor.org/packages/FirstPackage>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
@@ -92,7 +92,7 @@ print(citation('FirstPackage'), bibtex = TRUE)
 #>     author = {{joshstolz}},
 #>     year = {2020},
 #>     url = {http://www.bioconductor.org/packages/FirstPackage},
-#>     note = {https://github.com/joshstolz/FirstPackage - R package version 0.99.0},
+#>     note = {https://github.com/joshstolz/FirstPackage - R package version 0.0.0.9000},
 #>     doi = {10.18129/B9.bioc.FirstPackage},
 #>   }
 #> 
